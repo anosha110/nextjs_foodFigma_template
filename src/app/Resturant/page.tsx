@@ -101,7 +101,7 @@ export default function Resturant() {
 
                                 {/* Text Content */}
                                 <div>
-                                    <div className="font-bold text-[25px] leading-[50px] text-orange-500">Its Quick & Amusing!</div>
+                                    <div className="font-bold text-[25px] leading-[50px] text-orange-500"> It&apos;s Quick & Amusing!</div>
                                     <div className="text-[41px] font-serif font-semibold leading-[50px] mt-5 text-white">
                                         <span className="text-orange-500">Th</span>e Art of Speed Food Quality
                                     </div>
@@ -118,8 +118,8 @@ export default function Resturant() {
                         {/* Right Section */}
                         <div className="w-full md:w-[300px] h-auto">
                             <Image
-                                src={"/images/img2.jpg"}
-                                alt="Image"
+                                src="/images/img2.jpg"
+                                alt="image"
                                 width={350}
                                 height={300}
                                 className="w-full h-[300px] md:w-[350px] md:h-[300px] rounded-md shadow-lg object-cover"
